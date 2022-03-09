@@ -2,13 +2,11 @@ package entities;
 
 public class ImpleAluguel {
 
-	private int aluguel;
 	private String nome;
 	private String email;
 	private int quarto;
 
-	public ImpleAluguel(int aluguel, String nome, String email, int quarto) {
-		this.aluguel = aluguel;
+	public ImpleAluguel(String nome, String email, int quarto) {
 		this.nome = nome;
 		this.email = email;
 		this.quarto = quarto;
@@ -16,14 +14,6 @@ public class ImpleAluguel {
 
 	public ImpleAluguel() {
 
-	}
-
-	public int getAluguel() {
-		return aluguel;
-	}
-
-	public void setAluguel(int aluguel) {
-		this.aluguel = aluguel;
 	}
 
 	public String getNome() {
