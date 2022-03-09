@@ -40,6 +40,12 @@ public class Aluguel {
 
 		}
 
+		System.out.println("Lista: ");
+
+		for (ImpleAluguel x : list) {
+			System.out.println(x);
+		}
+
 		sc.close();
 
 	}

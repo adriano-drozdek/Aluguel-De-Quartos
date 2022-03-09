@@ -40,4 +40,8 @@ public class ImpleAluguel {
 		this.quarto = quarto;
 	}
 
+	public String toString() {
+		return "Nome " + nome + " Email " + email + " Quarto " + quarto;
+	}
+
 }
